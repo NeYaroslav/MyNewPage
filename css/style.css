@@ -234,6 +234,21 @@ body.show_menu header::after {
   width: 100%;
 }
 
+.main__screen::after {
+  content: "";
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  opacity: 0.7;
+  z-index: 2;
+}
+
 .main__screen__conteiner {
   min-height: 100vh;
   height: 100%;
@@ -612,31 +627,17 @@ body.show_menu header::after {
 }
 
 .main__bg {
-  background: url("../imgs/header.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   height: 100vh;
   width: 100vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   position: fixed;
   /* z-index usage is up to you.. although there is no need of using it because the default stack context will work. */
   z-index: -1;
   top: 0;
   /* z-index is optional */
-}
-
-.main__bg::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: #fff;
-  opacity: 0.8;
 }
 
 .main {
