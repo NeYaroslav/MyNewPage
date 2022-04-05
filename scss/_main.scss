@@ -1,21 +1,21 @@
 .main__screen {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     // background: #000;
 }
 
-.main__screen::after {
-    content: "";
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-    background: #fff;
-    opacity: 0.7;
-    z-index: 2;
-}
+// .main__screen::after {
+//     content: "";
+//     position: absolute;
+//     display: flex;
+//     width: 100%;
+//     height: 100%;
+//     top: 0;
+//     bottom: 0;
+//     background: #fff;
+//     opacity: 0.7;
+//     z-index: 2;
+// }
 
 .main__screen__conteiner {
     min-height: 100vh;

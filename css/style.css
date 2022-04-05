@@ -230,23 +230,8 @@ body.show_menu header::after {
 }
 
 .main__screen {
-  height: 100vh;
-  width: 100%;
-}
-
-.main__screen::after {
-  content: "";
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
   height: 100%;
-  top: 0;
-  bottom: 0;
-  background: #fff;
-  opacity: 0.7;
-  z-index: 2;
+  width: 100%;
 }
 
 .main__screen__conteiner {
@@ -650,8 +635,8 @@ body.show_menu header::after {
   content: "";
   width: 100%;
   height: 100%;
-  background: #000;
-  opacity: 0.5;
+  background: #fff;
+  opacity: 0.8;
 }
 
 .main {
