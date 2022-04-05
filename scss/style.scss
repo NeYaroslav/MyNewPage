@@ -109,7 +109,7 @@ h6 {
     top: 0;
     /* z-index is optional */
     &::after {
-        position: absolute;
+        position: fixed;
         display: flex;
         content:"";
         width: 100%;

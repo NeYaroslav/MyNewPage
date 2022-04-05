@@ -641,7 +641,7 @@ body.show_menu header::after {
 }
 
 .main__bg::after {
-  position: absolute;
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
